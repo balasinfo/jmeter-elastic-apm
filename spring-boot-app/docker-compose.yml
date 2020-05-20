@@ -9,6 +9,6 @@ services:
       POSTGRES_DB: jmeter-elastic-apm
       PGDATA: /data/postgres
     volumes:
-      - /home/matus/Work/jmeter-elastic-apm/spring-boot-app/dev/data/postgres:/data/postgres
+      - /Users/draobala/Bala/Downloads/jmeter-elastic-apm/spring-boot-app/dev/data/postgres:/data/postgres
     ports:
       - "0.0.0.0:5432:5432/tcp"
